@@ -1,5 +1,5 @@
 node {
-    def server = Artifactory.server('http://mill.jfrog.team:12553/artifactory,'admin','Jfrogtest1!')
+    def server = Artifactory.server 'jfrog'
     def rtMaven = Artifactory.newMavenBuild()
     def buildInfo
 
